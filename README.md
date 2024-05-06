@@ -27,7 +27,7 @@ The output file would be named toronto_Grayscale.png. Below are how the input an
 
 
 # The converters
-We will implement a number of various converters to your project. To follow the unified class interface defined in the main file (all converters can be referred to as a Converter), we need to make each concrete converter class (e.g., Grayscale) inherit from the common abstract based class Converter. The base class should implement the common operations shared by all of its subclasses, e.g., reading the input file, naming and writing the output file. The Java class that we use to store and manipulate the image is java.awt.image.BufferedImage. Please read its API documentation (links below) for details on how to use it.
+We will implement a number of various converters to your project. To follow the unified class interface defined in the main file (all converters can be referred to as a Converter), we need to make each concrete converter class (e.g., Grayscale) inherit from the common abstract based class Converter. The base class should implement the common operations shared by all of its subclasses, e.g., reading the input file, naming and writing the output file. The Java class that we use to store and manipulate the image is java.awt.image.BufferedImage.
 The default image format for this project is PNG. This should be the format of both the input and output images.
 
 # Our Tasks
